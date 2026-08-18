@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #eeeeee;
+    color: #292929;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resume {
+    width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 270px;
+    background-color: #639a9a;
+    color: white;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+}
+
+
+/* PHOTO */
+
+.photo {
+    width: 170px;
+    margin-right: 25px;
+}
+
+.photo img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+
+/* NAME */
+
+.name {
+    width: 330px;
+}
+
+.name h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin: 0 0 22px 0;
+    color: white;
+}
+
+.name p {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.name a {
+    color: #3459fd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* CONTACT */
+
+.contact {
+    width: 400px;
+    color: #222222;
+}
+
+.contact h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 18px 0;
+}
+
+.contact p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+label {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+
+/* MAIN CONTENT */
+
+.content {
+    display: flex;
+}
+
+.left {
+    width: 45%;
+    background-color: #dddddd;
+    padding: 28px 30px;
+}
+
+.right {
+    width: 55%;
+    background-color: white;
+    padding: 28px 30px;
+}
+
+
+/* SECTION HEADINGS */
+
+section {
+    margin-bottom: 28px;
+}
+
+section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #292929;
+    margin: 0 0 12px 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #639a9a;
+}
+
+
+/* NORMAL TEXT */
+
+section p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 6px 0;
+}
+
+
+/* PROFILE */
+
+.left section:first-child p {
+    line-height: 1.65;
+    font-size: 15px;
+}
+
+
+/* EDUCATION */
+
+.education {
+    margin-bottom: 18px;
+}
+
+.education h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+    line-height: 1.4;
+}
+
+.education p {
+    font-size: 15px;
+    margin: 3px 0;
+}
+
+
+/* EXPERIENCE */
+
+.experience h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 6px 0;
+    letter-spacing: 0.5px;
+}
+
+.experience p {
+    font-size: 15px;
+}
+
+
+/* SKILLS */
+
+.right section:first-child p {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+
+/* PROJECTS */
+
+.project {
+    margin-bottom: 22px;
+}
+
+.project h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 7px 0;
+}
+
+.project p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.55;
+    margin: 5px 0;
+}
+
+.project b {
+    font-weight: 700;
+}
+
+
+/* LIST */
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+
+/* DECLARATION */
+
+.signature {
+    text-align: right;
+    margin-top: 25px;
+}
+
+
+/* PRINT */
+
+@media print {
+
+    body {
+        background-color: white;
+    }
+
+    .resume {
+        width: 100%;
+        margin: 0;
+    }
+
+}
